@@ -7,8 +7,11 @@
 #SBATCH --mail-user=YOUR EMAIL
 #SBATCH --mail-type=END
 
+#this is cluster submit file
+
 # put your MMB path here. Don't use ~
 export LD_LIBRARY_PATH="/home/taoliu/projects/def-simine/programs/MMB/Installer.2_14.Linux64"
+
 
 module load python/3.7
 #module load StdEnv/2020
